@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Бросок тела под углом к горизонту</title>
+	<link rel="stylesheet" href="w3.css">
+</head>
+<body>
+	<h1 class="w3-container">Бросок тела под углом к горизонту</h1>
+	<form action="calc" method="post" class="w3-container">
+		<div class="w3-panel">
+			<label for="angle">Угол (°):</label>
+			<input id="angle" type="text" name="angle" value="30" class="w3-input w3-border">
+		</div>
+		<div class="w3-panel">
+			<label for="mass">Масса (кг):</label>
+			<input id="mass" type="text" name="mass" value="1" class="w3-input w3-border">
+		</div>
+		<div class="w3-panel">
+			<label for="resistance-coefficient">Коэффициент сопротивления (кг/с):</label>
+			<input id="resistance-coefficient" type="text" name="resistance-coefficient" value="0.3" class="w3-input w3-border">
+		</div>
+		<div class="w3-panel">
+			<label for="start-speed">Начальная скорость (м/с):</label>
+			<input id="start-speed" type="text" name="start-speed" value="20" class="w3-input w3-border">
+		</div>
+		<div class="w3-panel">
+			<button type="submit" class="w3-button w3-blue">Посчитать</button>
+		</div>
+	</form>
+</body>
+</html>
